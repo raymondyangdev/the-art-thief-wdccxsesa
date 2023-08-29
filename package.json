@@ -1,0 +1,15 @@
+{
+    "name": "the-art-thief-wdccxsesa",
+    "version": "1.0.0",
+    "description": "A web-based game that involves crafting replicas of renowned historical masterpieces from simple line sketches and text prompts utilising Stability.ai's Stable Diffusion API.",
+    "main": "index.js",
+    "scripts": {
+        "build": "concurrently \"cd art-thief-ui && npm i\" \"cd art-thief-api && npm i\"",
+        "start": "concurrently \"cd art-thief-ui && npm run dev\" \"cd art-thief-api && npm run dev\""
+    },
+    "author": ":)",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^8.2.1"
+    }
+}
