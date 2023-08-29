@@ -19,7 +19,7 @@ It's a web-based game that involves crafting replicas of renowned historical mas
 5. Configure the API key for the project
 - Navigate to the 'art-thief-api' directory: `cd art-thief-api`
 - Create a .env file: `touch .env`
--Open the **.env** file in a text editor and paste your API key as follows: `API_KEY=YOUR_API_KEY_HERE`
+- Open the **.env** file in a text editor and paste your API key as follows: `API_KEY=YOUR_API_KEY_HERE`
 
 7. Start the server:
 `npm run start`
